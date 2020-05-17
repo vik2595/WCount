@@ -39,7 +39,4 @@ plt.xticks(y_pos, wlist)
 plt.ylabel('Total words in text')
 plt.title('Word')
 
-for i in range(len(clist)):
-    plt.text(x = clist[i]-0.5 , y = wlist[i]+0.1, s = clist[i], size = 6)
-
 plt.show()
